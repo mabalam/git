@@ -3,13 +3,13 @@
 - cd to the directory
 - create a GitHub repo 'test'
 
-`echo "# test" >> README.md  
-git init  
-git add .  
-git commit -m "first commit"  
-git branch -M main  
-git remote add origin git@github.com:mabalam/test.git  
-git push -u origin main`  
+`echo "# test" >> README.md`  
+`git init`  
+`git add .`  
+`git commit -m "first commit"`  
+`git branch -M main`  
+`git remote add origin git@github.com:mabalam/test.git`  
+`git push -u origin main`  
 
 # Adding contents to the directory
 
