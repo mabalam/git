@@ -3,13 +3,13 @@
 - cd to the directory
 - create a GitHub repo 'test'
 
-    `echo "# test" >> README.md`  
-    `git init`  
-    `git add .`  
-    `git commit -m "first commit"`  
-    `git branch -M main`  
-    `git remote add origin git@github.com:mabalam/test.git`  
-    `git push -u origin main`  
+- `echo "# test" >> README.md`  
+- `git init`  
+- `git add .`  
+- `git commit -m "first commit"`  
+- `git branch -M main`  
+- `git remote add origin git@github.com:mabalam/test.git`  
+-`git push -u origin main`  
 
 # Modifying existing directory:
 
@@ -24,6 +24,9 @@
     - `git log --all --graph` all commits in a graph
     
 ## .gitignore
+- remove already tracked files/folder 
+    - `git rm -r --cached donotshare.txt .DS_Store`
+
 
 ## notes
 - local machine and remote can be connected either via HTTPS or SSH (same either way)
