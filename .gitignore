@@ -1,4 +1,5 @@
-.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 Do-not-share.txt
 .gitignore
-.DS_Store/
+.DS_Store
