@@ -23,7 +23,7 @@
 - `git pull` sync any changes made on remote repo
 - `git log --all --graph` all commits in a graph
     
-
+## .gitignore
 
 ## notes
 - local machine and remote can be connected either via HTTPS or SSH (same either way)
